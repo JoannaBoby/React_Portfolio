@@ -1,0 +1,58 @@
+/* === CONTACT FORM === */
+.contact-section {
+  background: var(--light);
+  padding: 60px 20px; /* added padding for spacing */
+}
+
+.form-group {
+  margin-bottom: 20px; /* slightly reduced for balance */
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 6px;
+  font-weight: 600;
+  color: var(--primary);
+  font-size: 0.95rem; /* consistent sizing */
+}
+
+.form-group input,
+.form-group textarea,
+.form-select {
+  width: 100%;
+  padding: 12px 14px; /* slightly reduced padding */
+  border: 2px solid #ddd;
+  border-radius: 6px; /* softened corners */
+  font-size: 1rem;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.form-group.invalid label {
+  color: #c53030;
+}
+
+.form-group.invalid input,
+.form-group.invalid textarea {
+  border-color: #c53030;
+}
+
+.form-group input:focus,
+.form-group textarea:focus,
+.form-group .form-select:focus {
+  border-color: var(--primary);
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(27, 79, 114, 0.15); /* softened shadow */
+}
+
+.form-error {
+  margin-top: 6px;
+  color: #c53030;
+  font-size: 0.85rem;
+}
+
+.form-success {
+  margin-top: 14px;
+  color: #1d6a20;
+  font-weight: 600;
+  font-size: 0.95rem;
+}

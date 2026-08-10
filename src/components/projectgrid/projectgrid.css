@@ -1,0 +1,29 @@
+.project-grid-container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px 0;
+}
+
+/* Responsive Grid Layout */
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 28px;
+  align-items: stretch;
+}
+
+.no-projects {
+  text-align: center;
+  color: var(--text-muted, #94a3b8);
+  font-size: 1.1rem;
+  padding: 40px 0;
+}
+
+/* Responsive Tweaks */
+@media (max-width: 640px) {
+  .project-grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+}

@@ -1,0 +1,51 @@
+/* === SKILL CARD === */
+.skill-card {
+  background: var(--light);
+  border: 2px solid var(--primary);
+  border-radius: 12px;
+  padding: 28px 20px;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer; /* makes it feel interactive */
+}
+
+.skill-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 32px rgba(0,0,0,0.12);
+}
+
+.skill-icon {
+  font-size: 2.5rem;
+  display: block;
+  margin-bottom: 0.75rem; /* slightly more breathing space */
+  color: var(--primary); /* ties icon color to theme */
+}
+
+.skill-name {
+  margin: 0 0 0.25rem;
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: var(--text);
+}
+
+.skill-level {
+  font-size: 0.9rem;
+  color: var(--accent);
+  margin: 0 0 1rem;
+  font-weight: 600;
+}
+
+.skill-bar {
+  background: #E5E7EB;
+  border-radius: 9999px;
+  height: 8px;
+  width: 100%;
+  overflow: hidden; /* ensures fill stays inside */
+}
+
+.skill-fill {
+  background: var(--primary);
+  border-radius: inherit;
+  height: 100%;
+  transition: width 1s ease-in-out;
+}

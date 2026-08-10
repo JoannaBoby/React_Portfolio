@@ -1,0 +1,40 @@
+.github-stats { 
+  display: flex; 
+  gap: 20px; 
+  align-items: center; 
+  background: #fff; 
+  padding: 20px; 
+  border-radius: 12px; 
+  box-shadow: 0 4px 12px rgba(0,0,0,0.12); /* softened shadow */
+  font-size: 0.95rem; /* consistent sizing */
+}
+
+.github-stats img {
+  width: 60px; 
+  height: 60px; 
+  border-radius: 50%; 
+  object-fit: cover; 
+}
+
+.github-stats .stat {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.github-stats .stat strong {
+  font-size: 1.1rem;
+  color: var(--primary);
+}
+
+@media (max-width: 600px) {
+  .github-stats {
+    flex-direction: column; /* stack on small screens */
+    text-align: center;
+    gap: 16px;
+  }
+
+  .github-stats .stat {
+    align-items: center;
+  }
+}
