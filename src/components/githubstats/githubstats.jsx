@@ -1,6 +1,6 @@
 // src/components/GitHubStats/GitHubStats.jsx
 import { useState, useEffect } from 'react';
-import './gitHubStats.css';
+import './gitHubstats.css';
 
 function GitHubStats({ username }) {
   // States: Data, Loading, Error
