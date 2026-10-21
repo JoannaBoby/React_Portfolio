@@ -1,4 +1,4 @@
-import './SkillCard.css';
+import './skillCard.css';
 
 function SkillCard({ name, level, icon, link }) {
   const levelPercent = {

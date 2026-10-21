@@ -4,13 +4,13 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 // Layout Components
 import Navbar from './components/navbar/navbar.jsx';
 import Footer from './components/footer/footer.jsx';
-import aboutsection  from './components/aboutsection/aboutsection.jsx';
-import contactform  from './components/contactform/contactform.jsx';
-import githubstats from './components/githubstats/githubstats.jsx';
-import hero from './components/hero/hero.jsx';
-import projectcard from './components/projectcard/projectcard.jsx';
-import projectgrid from './components/projectgrid/projectgrid.jsx';
-import skillcard from './components/skillcard/skillcard.jsx';
+import AboutSection from './components/aboutsection/aboutsection.jsx';
+import ContactForm from './components/contactform/contactform.jsx';
+import GitHubStats from './components/githubstats/githubstats.jsx';
+import Hero from './components/hero/hero.jsx';
+import ProjectCard from './components/projectcard/projectcard.jsx';
+import ProjectGrid from './components/projectgrid/projectgrid.jsx';
+import SkillCard from './components/skillcard/skillcard.jsx';
 
 // Pages
 import Home from './pages/home.jsx';

@@ -1,7 +1,7 @@
-import './AboutPage.css';
-import AboutSection from '../components/AboutSection/AboutSection';
-import GitHubStats from '../components/GitHubStats/GitHubStats';
-import SkillCard from '../components/SkillCard/SkillCard';
+import './aboutpage.css'; // or keep aboutPage.css if the file itself is capitalized
+import AboutSection from '../components/aboutsection/aboutsection';
+import GitHubStats from '../components/githubstats/githubstats';
+import SkillCard from '../components/skillcard/skillcard';
 
 const SKILLS = [
   { name: 'HTML5', level: 'Intermediate', icon: '🌐' },

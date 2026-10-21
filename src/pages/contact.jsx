@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
-import ContactForm from '../components/ContactForm/ContactForm';
-import './ContactPage.css';
+import ContactForm from '../components/contactform/contactform';
+import './contactpage.css';
 
 function Contact() {
   return (
